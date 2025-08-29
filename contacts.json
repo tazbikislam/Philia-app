@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Max Willier",
+    "birthday": "01-01-2000",
+    "last_contact": "01-08-2025",
+    "relationship": "Best Friend",
+    "notification_interval": "7 Days"
+  },
+  {
+    "name": "Elle White",
+    "birthday": "02-02-2000",
+    "last_contact": "02-08-2025",
+    "relationship": "Friend",
+    "notification_interval": "14 Days"
+  },
+  {
+    "name": "Natasha Ward",
+    "birthday": "03-03-2000",
+    "last_contact": "29-08-2025",
+    "relationship": "Friend",
+    "notification_interval": "21 Days"
+  },
+  {
+    "name": "Whitney Fair",
+    "birthday": "04-04-2000",
+    "last_contact": "04-08-2025",
+    "relationship": "Friend",
+    "notification_interval": "30 Days"
+  }
+]
