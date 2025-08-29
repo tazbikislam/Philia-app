@@ -72,9 +72,7 @@ Just run your script:
 python FriendZone.pyw
 ```
 
-()
-
-The GUI opens, and reminders will start in the background thread.
+* The GUI opens, and reminders will start in the background thread.
 
 2. **Run in Background Always**
 
