@@ -116,5 +116,5 @@ There are two ways to have it run automatically each time your computer boots up
 * The script uses **threads**:
   * Main thread → GUI
   * Background thread → notifications
-* The GUI may remain reduced when you close it (if coded to do so).
+* The GUI may remain reduced when you close it.
 *  Because `.pyw` doesn't display a console window, it appears to be a background application.
