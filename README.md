@@ -1,4 +1,4 @@
-# FriendZone-app
+# Philia-app
 An entertaining Python app that relieves the hassle of remembering friends birthdays and helps to stay in touch with them more effectively.
 
 # Features
@@ -69,7 +69,7 @@ An entertaining Python app that relieves the hassle of remembering friends birth
 Just run your script:
 
 ```bash
-python FriendZone.pyw
+python Philia.pyw
 ```
 
 * The GUI opens, and reminders will start in the background thread.
@@ -80,7 +80,7 @@ There are two ways to have it run automatically each time your computer boots up
 
 #### 🔹 Windows
 
-1. Save your script as `FriendZone.pyw` (no console).
+1. Save your script as `Philia.pyw` (no console).
 2. Create a shortcut of it.
 3. Press `Win + R`, type:
 
@@ -90,14 +90,14 @@ There are two ways to have it run automatically each time your computer boots up
 
    → This opens the Startup folder.
 4. Paste the shortcut there.
-5. `FriendZone.pyw` will now operate automatically in the background each time you log in.
+5. `Philia.pyw` will now operate automatically in the background each time you log in.
 
 #### 🔹 Linux (Ubuntu etc.)
 
 * Add it to **Startup Applications**:
 
   ```bash
-  python3 /path/to/FriendZone.pyw 
+  python3 /path/to/Philia.pyw 
   ```
 
 #### 🔹 macOS
@@ -105,7 +105,7 @@ There are two ways to have it run automatically each time your computer boots up
 * Use **Automator → Application → Run Shell Script** and point it to:
 
   ```bash
-  python3 /path/to/FriendZone.pyw
+  python3 /path/to/Philia.pyw
   ```
 * Then add it to **Login Items** in System Preferences.
 
