@@ -1,120 +1,92 @@
-# Philia-app
+## Philia-app
+
 An entertaining Python app that relieves the hassle of remembering friends birthdays and helps to stay in touch with them more effectively.
 
-# Features
 
-1. **Add/Delete Contacts**
+## Built With
+
+* ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
+* ![CustomTinker](https://img.shields.io/badge/CustomTinker-FFD700?logo=python&logoColor=fff)
+* ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?logo=visualstudiocode&logoColor=fff)
+
+
+## Getting Started
+
+## Prerequisites
+
+* Visual Studio Code
+   * Get the latest VS Code version from the official website (<a href="https://code.visualstudio.com" target="_blank">code.visualstudio.com</a>).
    
-  * Contacts are stored in a `contacts.json` file, which contains the following information:
-     * Name
-     * Relationship
-     * Birthday
-     * Last Contacted Date
-     * Reminder Interval (7, 14, 21, 28 days)
+* Python
+   * Get the most recent Python version from the official website (<a href="https://www.python.org/" target="_blank">python.org</a>).
+   * Start the installer & Complete the installation process.
+     
+* CustomTinker
+   * It is a robust Python user interface module.
+   * Open your VS Code terminal and enter the following to install it.
+  ```sh
+  pip install customtkinter
+  ```
 
-2. **Search Bar**
+## Installation
 
-   * Allows you to type a contact's name to find them easily.
+### 1. Normal Run (with GUI)
 
-3. **Notifications**
-
-   * Displays desktop notifications with `plyer.notification`.
-
-4. **Mark Contacted Today**
-
-   * To mark a contact as contacted today, simply click the button; the date will be instantly updated.
-
-8. **Delete Contact**
-
-   * Deletes a chosen contact from the database.
-
----
-
-## How It Works
-
-1. **Data Storage**
-
-* Contacts are stored in a list of dictionaries called `contacts.json`.
-* Example:
-
-     ```json
-     [
-      {
-        "name": "Max Willier",
-        "birthday": "01-01-2000",
-        "last_contact": "01-08-2025",
-        "relationship": "Best Friend",
-        "notification_interval": "7 Days"
-      }
-     ]
-     ```
-
-2. **GUI Layer**
-
- * Developed using `customtkinter` to create a contemporary interface with a dark theme.
- * Contacts are shown in aligned columns in Listbox/Textbox.
- *  Interaction is made possible by buttons ({Add`, `Delete`, `Mark Contacted`).
-
-3. **Background Notifications**
-
- * Every few minutes, a separate background loop checks.
- * A desktop notification is triggered if a contact's interval is due or if it is their birthday today.
-   
----
-
-### How to Run It
-
-1. **Normal Run** (with GUI)
-
-Just run your script:
-
-```bash
+* Just run your script:
+```sh
 python Philia.pyw
 ```
-
 * The GUI opens, and reminders will start in the background thread.
 
-2. **Run in Background Always**
+### 2. Run in Background Always
 
-There are two ways to have it run automatically each time your computer boots up:
-
-#### 🔹 Windows
-
-1. Save your script as `Philia.pyw` (no console).
-2. Create a shortcut of it.
-3. Press `Win + R`, type:
-
-   ```
-   shell:startup
-   ```
-
-   → This opens the Startup folder.
-4. Paste the shortcut there.
-5. `Philia.pyw` will now operate automatically in the background each time you log in.
-
-#### 🔹 Linux (Ubuntu etc.)
-
-* Add it to **Startup Applications**:
-
-  ```bash
-  python3 /path/to/Philia.pyw 
-  ```
-
-#### 🔹 macOS
-
-* Use **Automator → Application → Run Shell Script** and point it to:
-
-  ```bash
+* There are two ways to have it run automatically each time your computer boots up:
+<br>🔹 Windows <br>
+  1. Save your script as ```Philia.pyw```.
+  2. Create a shortcut of it.
+  3. Press ```Win + R```, type:```shell:startup```
+  4. This opens the Startup folder.
+  5. Paste the shortcut there.
+  6. ```Philia.pyw``` will now operate automatically in the background each time you log in.
+  
+  🔹 Linux (Ubuntu etc.) <br>
+  1. Add it to Startup Applications:
+  ```sh
   python3 /path/to/Philia.pyw
   ```
-* Then add it to **Login Items** in System Preferences.
+  
+  🔹 macOS <br>
+  1. Use Automator → Application → Run Shell Script and point it to:
+  ```sh
+  python3 /path/to/Philia.pyw
+  ```
+  2. Then add it to Login Items in System Preferences.
 
----
+## How It Operates
 
-## Why It Can Run in Background
+* Contacts are stored in a list of dictionaries called ```contacts.json```.
+* Example:
+```sh
+[
+ {
+   "name": "Max Willier",
+   "birthday": "01-01-2000",
+   "last_contact": "01-08-2025",
+   "relationship": "Best Friend",
+   "notification_interval": "7 Days"
+ }
+]
+```
+* GUI Layer is developed using ```customtkinter``` to create a contemporary interface with a dark theme.
+* Contacts are shown in aligned columns in Listbox/Textbox.
+* Interaction is made possible by buttons (```Add```, ```Delete```, ```Mark Contacted```).
+* Background Notifications runs every few minutes , to a separate background loop check.
+* A desktop notification is triggered if a contact's interval is due or if it is their birthday today.
+* ```.pyw``` doesn't display a console window, it appears to be a background application.
 
-* The script uses **threads**:
-  * Main thread → GUI
-  * Background thread → notifications
-* The GUI may remain reduced when you close it.
-*  Because `.pyw` doesn't display a console window, it appears to be a background application.
+
+## Contact
+
+Tazbik Islam - tazbikislam.work@gmail.com
+
+Project Link: <a href="https://github.com/tazbikislam/Philia-app" target="_blank"> Philia-app </a>
