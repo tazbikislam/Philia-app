@@ -88,5 +88,3 @@ python Philia.pyw
 ## Contact
 
 Tazbik Islam - tazbikislam.work@gmail.com
-
-Project Link: <a href="https://github.com/tazbikislam/Philia-app" target="_blank"> Philia-app </a>
