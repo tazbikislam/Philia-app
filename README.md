@@ -78,8 +78,3 @@ python Philia.pyw
 * Background Notifications runs every few minutes , to a separate background loop check.
 * A desktop notification is triggered if a contact's interval is due or if it is their birthday today.
 * ```.pyw``` doesn't display a console window, it appears to be a background application.
-
-
-## Contact
-
-Tazbik Islam - tazbikislam.work@gmail.com
