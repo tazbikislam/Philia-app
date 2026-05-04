@@ -1,8 +1,3 @@
-## Philia-app
-
-An entertaining Python app that relieves the hassle of remembering friends birthdays and helps to stay in touch with them more effectively.
-
-
 ## Built With
 
 * ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
